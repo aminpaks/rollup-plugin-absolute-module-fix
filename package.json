@@ -1,0 +1,22 @@
+{
+  "name": "rollup-plugin-absolute-module-fix",
+  "version": "0.0.1",
+  "description": "Fixes this issue temporarily",
+  "author": "aminpaks <amin.pakseresht@hotmail.com>",
+  "license": "MIT",
+  "main": "plugin.js",
+  "keywords": [
+    "angular",
+    "compiler",
+    "@angular/compiler",
+    "absolute module",
+    "module index issue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminpaks/rollup-plugin-absolute-module-fix.git"
+  },
+  "dependencies": {
+    "magic-string": "^0.22.4"
+  }
+}
