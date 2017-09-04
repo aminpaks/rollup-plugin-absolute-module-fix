@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-absolute-module-fix",
-  "version": "0.0.2-beta",
+  "version": "0.0.2-beta-2",
   "description": "Fixes this issue temporarily",
   "author": "aminpaks <amin.pakseresht@hotmail.com>",
   "license": "MIT",
