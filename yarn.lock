@@ -2,11 +2,36 @@
 # yarn lockfile v1
 
 
+"@types/acorn@*":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/acorn/-/acorn-4.0.2.tgz#5c37dade857a53c14258c914d43e634076aec3fd"
+  dependencies:
+    "@types/estree" "*"
+
+"@types/estree@*":
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.37.tgz#48949c1516d46139c1e521195f9e12993b69d751"
+
+"@types/rollup@^0.41.1":
+  version "0.41.1"
+  resolved "https://registry.yarnpkg.com/@types/rollup/-/rollup-0.41.1.tgz#0a88eb8715bbe70a87287098f2cd76716c60137f"
+  dependencies:
+    "@types/acorn" "*"
+    "@types/source-map" "*"
+
+"@types/source-map@*":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@types/source-map/-/source-map-0.5.1.tgz#7e74db5d06ab373a712356eebfaea2fad0ea2367"
+
 magic-string@^0.22.4:
   version "0.22.4"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.22.4.tgz#31039b4e40366395618c1d6cf8193c53917475ff"
   dependencies:
     vlq "^0.2.1"
+
+rollup@~0.48.0:
+  version "0.48.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.48.2.tgz#dd9214eaf78d98a7771bf5583123cc80a0b5d6dc"
 
 vlq@^0.2.1:
   version "0.2.2"
